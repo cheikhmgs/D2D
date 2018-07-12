@@ -1,0 +1,981 @@
+* {  	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{ 
+
+ }
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+/*------------------------------------------------*/
+/*-------------------- NAV BAR -------------------*/
+/*------------------------------------------------*/
+
+/*@media screen and (max-width: 992px) {
+	#navbar {
+		height: 1%;
+	}
+}*/
+
+
+#navigation {
+	width: 50%;
+	margin: 0 auto;
+	border-bottom: 5px black solid;
+	background-color: white;
+}
+
+.nav-item {
+	text-align: center;
+	margin-left: 15px;
+	font-size: 20px;
+/*	background-color: none !important;*/
+}
+
+#drop_bouton {
+	color: black;
+
+}
+
+#dropdownMenuButton{
+	margin-top: 7%;
+
+}
+
+.navbar-nav {
+
+	width: 100%;
+
+	/*border: 2px red solid;*/
+
+}
+/*@media screen and (max-width: 992px) {
+	.nav-item {
+		width: 80px;
+		font-size: 15px;
+	}
+	#off {
+		width: 15px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	}
+}*/
+
+@media screen and (max-width: 1280px) {
+	.nav-item {
+		width: 80px;
+		font-size: 15px;
+		margin-left: 20px;
+	}
+		#off {
+	display: hidden;
+	}
+}
+
+/* Image deconnexion*/
+#off {
+	width: 25px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.navbar {
+	background-color: white;
+
+}
+
+/*#navbar {
+	margin-top: 1%;
+	width: 63%;
+	border-bottom: 8px black solid;
+	border-left: 2px solid grey;
+border-right: 1px lightgrey solid;
+box-shadow: 1px 1px 8px lightgrey;
+position: fixed;
+z-index: 1;
+background-color: white;
+margin-left:50%;
+transform: translate(-50%);
+}*/
+
+.navbar-collapse{
+	background-color: white;
+	margin:auto;
+}
+
+
+/*------------------------------------------------*/
+/*------------------ INDEX.PHP -------------------*/
+/*------------------------------------------------*/
+#admin {
+	position: absolute;
+	margin-top: -60px;
+	margin-left: 90%;
+}
+
+.carousel-item img{
+	width: 100%;
+	height: 400px;
+	padding: 1%;
+}
+
+.carou {
+	margin: 5% auto;
+	border:2px black solid;
+	width: 50%;
+	height: 50%;
+}
+
+.contenu_accueil {
+	margin-top: 50px;
+	display: flex;
+	/*border:1px black solid;*/
+}
+
+.col {
+	margin: 0 10px;
+	flex:3;
+	flex-direction: row;
+	border:2px black solid;
+}
+@media screen and (max-width: 992px) {
+	.service li {
+		list-style-type: none; 
+	}
+	.G {
+		font-size: 12px;
+		line-height: 10px;
+	}
+	h6 {
+		font-size: 12px;
+		line-height: 10px;
+	}
+	h5{
+		font-size: 15px;
+	}
+	.tit {
+		font-size: 20px;
+	}
+	#carte {
+		border: 1px red solid !important;
+		width: 10px;
+		height: 300px;
+	}
+	#logo {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+.G {
+	padding-left: 1%;
+	flex-direction: column;
+	flex: 1;
+	height: 700px;
+}
+
+
+.D {
+	padding: 0;
+	border: 2px black solid;
+	flex-direction: column;
+	flex: 4;
+}
+
+
+.rowp {
+	display: flex;
+	height: 100%;
+	flex-direction: row;
+}
+
+.div {
+	margin-top: 5%;
+	border:1px black solid;
+	margin-right: 2%;
+	margin-left: 15px;
+	width: 100%;
+	height: 590px;
+	flex-direction: column;
+	flex: 1;
+	/*border:2px red solid;*/
+}
+
+.tit {
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	/*border:1px yellow solid;*/
+	background-color: #57140b;
+	height: 40px;
+}
+.service li{
+	margin-left: 5%;
+}
+
+.card-text {
+	width: 100%;
+	text-align: center;
+	line-height: 10px;
+}
+
+#btn_card {
+	margin-top: 10%;
+	border: none;
+	background-color: #57140b;
+}
+
+#card_index {
+	width: 100%;
+	margin-left: 1%;
+	border: 1px black solid;
+	border-top: none;
+}
+
+#carte {
+	margin-top: 10px;
+	text-align: center;
+	border: 1px black solid;
+	width: 71%;
+	height: 90%;
+	margin-left: 15%;
+}
+
+#logo {
+	position: absolute;
+	margin-top: -100px;
+}
+
+#img_index {
+	border: 1px black solid;
+	margin-top: 3%;
+	margin-left: 1%;
+	width: 100%;
+}
+.sav {
+	margin-top: 40px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.service {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+h5 {
+	height: 40px;
+	text-align: center;
+	color: white;
+	background-color: #57140b;
+	margin-top: 10px;
+}
+
+li {
+	line-height: 45px;
+}
+/*------------------------------------------------*/
+/*---------------- INSCRIPTION -------------------*/
+/*------------------------------------------------*/
+
+.containeur {
+	border: solid;
+	width: 650px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.infox {
+	/*border:1px red solid;*/
+	display: flex;
+	height: 100%;
+}
+
+#back {
+	margin-left:270px;
+}
+
+#bck {
+	font-size: 10px;
+	margin:1%;
+}
+.npm {
+	text-align: center;
+	flex:1;
+	line-height: 40px;
+}
+.colu{
+	flex-direction: column;
+	flex: 1;
+}
+.mdp {
+	margin-right: 25px;
+	margin-top: 20px;
+	text-align: center;
+	flex:1;
+	line-height: 40px;
+	/*border:1px green solid;*/
+}
+
+.input {
+	height: 20px;
+	margin-top: 10px;
+	/*border:2px purple solid;*/
+	float: right;
+}
+
+.ckeckins{
+	margin-left: 1%;
+}
+
+.head {                                                /*/ en commun avec connexion/*/
+	background-color: #17202A;	
+	width: 905px;
+	height: 15px;
+	margin-top:0; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.contour{
+	border: solid;
+	width: 900px;
+	height: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:0;
+
+}
+
+h1{
+	color: white;
+	text-align: center;
+
+}
+
+
+.infoperso{ /**/
+	
+	width: 600px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	border: 3px solid #57140b;
+}
+
+
+.infoperso legend{
+	color: #57140b
+}
+
+.infolivraison{ /**/
+
+	border: 3px solid #57140b;
+	margin-top: 30px;
+	width: 90%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 5PX;
+}
+
+.infolivraison legend{
+	color: #57140b
+}
+
+.rowinscri { 
+	flex-direction: row;
+	flex: 1;
+	display: flex;
+}
+
+.col-label1{/**/
+	padding-left:1px;
+
+}
+
+.col-input1{/**/
+	margin-left: 21px;
+
+}
+.col-label2{/**/
+	margin-left:190px;
+}
+
+.col-input2{/**/
+	margin-left:10px;
+}
+
+
+.submit {          /*/ en commun avec connexion/*/     
+	width: 20%; 
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 6px 15px;
+	margin-left: 260px;
+	font-size: 18px; 
+	color: white;
+}
+
+
+input[type="submit"]{         
+	background: #57140b; 
+	border: 1px; 
+	cursor: pointer;
+	color: white;
+}
+input[type="submit"]:hover{        
+	background: grey;
+	width: 22%;
+	transition: 1s;
+}
+
+
+/*------------------------------------------------*/
+/*------------------ CONNEXION -------------------*/
+/*------------------------------------------------*/
+.containeuur {
+	border: solid;
+	width: 650px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+}
+
+.head{
+	background: black;
+	border: solid;
+	width: 650px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.top_co {
+	margin-top: 70px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.bot_co {
+	font-size: 20px;
+	text-align: center;
+}
+
+.input_co {
+	width: 230px;
+	height: 25px;
+	border: 1px black solid;
+	border-radius: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.submiit {     
+	width: 20%; 
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 6px 15px;
+	margin-left: 260px;
+	font-size: 18px; 
+	color: white;
+}
+
+/*------------------------------------------------*/
+/*----------------- DRONE RACING -----------------*/
+/*------------------------------------------------*/
+
+/*#card_dr {
+	margin-top: 150px;
+	margin-left: 100px;
+	position: relative;
+	display: inline-block;
+	border:1px black solid;
+}*/
+ 
+/*  .card-body {
+    border: 2px red solid;
+    height: 35%;
+}
+
+.card-img-top {
+    border:2px blue solid;
+    height: 40%;
+    width: 100%;
+} */
+
+#card_dr {
+	margin-top: 150px;
+	margin-left: 60px;
+	position: relative;
+	display: inline-block;
+	border:2px black solid;
+	width: 358px;
+	height: 555px;
+/*	border: 4px green solid;*/
+}
+.card-body {
+    /*border: 1px red solid;*/
+    margin-left: -39px;
+    height: 30%;
+    width: 355px;
+
+}
+.card{
+
+	text-align: center;
+	border: none !important;
+}
+
+.card-img-top {
+	margin-top: -99px;
+	margin-left: -36px;
+    height: 40%;
+    border-bottom: 1px black solid;
+    width: 355px;
+    height: 250px;
+} 
+
+.infos{
+	width: 300px;
+	display: flex;
+ margin-top: 90px;
+}
+
+#btn_ajout{
+	margin-left: 20px;
+	font-size: 20px;
+	 width: 130px;
+	 height: 40px;
+	 background-color: #57140b;
+	 color: white;
+	 border: none;
+}
+
+.btn_descr{
+	margin-left: 30px;
+	font-size: 20px;
+	 width: 130px;
+	 height: 40px;
+	 background-color: #57140b;
+	 color: white;
+	 border: none;
+}
+
+
+/*------------------------------------------------*/
+/*-------------------- PROFIL --------------------*/
+/*------------------------------------------------*/
+#empty_cart {
+	color: red;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 40%;
+}
+.tablo{
+	margin-left: 0px;
+	overflow: scroll;
+	height: 350px;
+	width: 530px;
+	overflow-x: hidden;
+}
+
+#tabtab {
+	margin: 0px;
+	width: 100%;
+}
+.row {
+	margin-top:150px;
+	border:1px black solid;
+	width: 80%;
+	height: 60%;
+}
+
+.list-group-item:hover {
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	background-color: none;
+	font-weight: bold;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  color:#ffffff;
+  background-color:#57140b;
+  border-color:#57140b;
+}
+
+.col-4 {
+	padding: 0px;
+	height: 400px;
+	border-right:1px black solid;
+}
+
+.container_profil {
+	margin-left: 400px;
+}
+
+@media screen and (max-width: 992px) {
+	.list-group {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 898px) {
+	.list-group {
+		font-size: 12px;
+	}
+}
+
+.list-group {
+	width: 100%;
+}
+
+
+.tab-pane {
+	margin-top: 5%;
+	text-align: center;
+}
+
+#supprimer {
+	margin-top: 20%;
+	background-color: #57140b;
+	border: none;
+}
+
+#modify {
+	margin-top: 40%;
+	background-color: #57140b;
+	border: none;
+}
+
+/*------------------------------------------------*/
+/*----------------- MODFY PROFIL -----------------*/
+/*------------------------------------------------*/
+
+.contain_modif {
+	border:1px black solid;
+	width: 50%;
+	margin: -7% auto;
+}
+
+.head_modif {
+	width: 50%;
+	margin: 9% auto;
+	background-color: black
+}
+
+.modiflivraison {
+	padding: 10px;
+	border:2px black solid;
+	width: 60%;
+	height: 140px;
+	margin: 2% auto;
+	text-align: center;
+}
+
+.info_modif {
+	float: right;
+	border: 1px black solid;
+	width: 150px;
+	height: 20px;
+}
+
+.span_modif {
+	float: left;
+}
+
+#modif {
+	width: 150px;
+	height: 30px;
+	border-radius: 30px;
+	font-size: 15px;
+	margin-left: 40%;
+}
+
+/*------------------------------------------------*/
+/*-------------------- PANIER --------------------*/
+/*------------------------------------------------*/
+
+
+
+.txt-heading {
+    background-color: #57140b;
+    color: white;
+    width: 80%;
+    height: 60px;
+	margin-left: 10%;
+	margin-top: 1%;
+    position: relative;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#vider_panier {
+    border: 2px pink solid;
+    width: 150px;
+    height: 100px;
+
+}
+
+.table {
+		margin-left: 15%;
+	width: 70%;
+	height: 50px;
+	border: 1px black solid;
+}
+
+#continuer_shop {
+/*	border: 2px green solid;*/
+    width: 210px;
+    height: 50px;
+    background-color:  #57140b;
+    color: white;
+    font-size: 20px;
+	border-radius: 50px;
+	float: right;
+}
+
+#valider {
+/*border: 2px blue solid;*/
+    width: 210px;
+    height: 50px;
+    background-color:  #57140b;
+    color: white;
+    font-size: 20px;
+	border-radius: 50px;
+}
+.achat {
+	margin-top: 1%;
+    height: 49%;
+    width: 70%;
+    position: absolute;
+margin-left: 15%;
+overflow: scroll;
+overflow-x: hidden;
+/*border: 1px red solid;*/
+}
+
+
+.btn_pan {
+	margin-top: 27%;
+	width: 70%;
+	margin-left: 15%;
+	/*border: 1px orange solid;*/
+	position: relative;
+}
+
+.total span {
+	color: red;
+	float: right;
+}
+.total {
+	margin-left: 30%;
+	transform: translate(50%);
+	font-size: 23px;
+    height: 50px;
+    width: 20%;
+}
+
+.imgp {
+  width: 3%;
+}
+.imgt {
+  width:3%;
+}
+
+
+
+/*------------------------------------------------*/
+/*-------------------- PAYMENT -------------------*/
+/*------------------------------------------------*/
+
+
+.payment {
+	text-align: center;
+	border: 2px black solid;
+	width: 50%;
+	margin: 250px auto;
+}
+
+
+/*------------------------------------------------*/
+/*----------------- PANEL ADMIN ------------------*/
+/*------------------------------------------------*/
+
+
+
+.pan_admin {
+	display: flex;
+	width: 70%;
+	margin: 0 auto;
+	/*border: 3px red solid;*/
+	padding: 10px;
+}
+
+#left {
+	width: 70%;
+	/*border: 1px black solid;*/
+}
+
+#right {
+	width: 70%;
+	/*border: 1px black solid;*/
+	margin-left: 1%;
+}
+
+#show_left {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#show_right {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	
+	background-color: black;
+	color: white;
+}
+
+#form_product {
+	font-weight: bold;
+	width: 100%;
+
+}
+
+#form_product input, select{
+	width: 200px;
+	border: 1px black solid;
+	float: right;
+}
+
+#form_rank {
+	font-weight: bold;
+	width: 100%;
+
+}
+
+
+#form_rank input{
+width: 200px;
+	border: 1px black solid;
+	float: right;
+}
+
+.administration {
+	text-align: center;
+	margin-top: 10%;
+}`
+/*------------------------------------------------*/
+/*------------- DESCRIPTION PRODUIT --------------*/
+/*------------------------------------------------*/
+.cardf {
+	margin-top: 15%;
+	margin-bottom: 2%;
+	height: 105%;
+}
+
+.cb {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.tinypictures {
+flex:1;
+/*border: 2px blue solid;*/
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.tiny {
+	height: 20%;
+}
+
+.tiny img {
+	width:75%;
+	height: 88%;
+	border: 2px #57140b solid;
+	margin-left: 13%;
+	margin-top: 4%;
+}
+
+.tiny:hover {
+background-color: #57140b;
+}
+
+.bigpicture {
+flex: 3;
+/*border: 2px yellow solid;*/
+}
+
+.bigpicture img{
+width: 100%;
+height: 93%;
+}
+
+.comment {
+flex: 4;
+padding-left: 3%;
+/*border: 2px blue solid;*/
+}
+
+.select {
+	height: 10%;
+	width: 57%;
+}
+.nom {
+	margin-top: 5%;
+}
+
+.carac {
+	width:80%;
+  margin-bottom: 1%;
+  margin-left: 10%;
+  text-align: center;
+
+}
+
+.card{
+	margin-left: 10%;
+	margin-top: 100px;
+	width: 80%;
+}
+
+
+
+canvas {
+  background: #111;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px #001;
+  display: block;
+  margin: 40px auto;
+}
+
